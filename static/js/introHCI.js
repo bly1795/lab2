@@ -1,6 +1,6 @@
 function initializePage() {
 	$("#testjs").click(function(e) {
-		$('.jumbotron hl').text("Javascript is connected");
+		$('.jumbotron h1').text("Javascript is connected");
 	});
 	$("a.thumbnail").click(projectClick);
 }
@@ -10,6 +10,4 @@ function projectClick(e) { 
     $(this).css("background-color", "#7fff00");
 }
 
-clickB {
-	initializePage()
-}
+$(document).ready(initializePage);
